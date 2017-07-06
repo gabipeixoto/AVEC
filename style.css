@@ -1,0 +1,16 @@
+.body{
+	background-color: #f8f4fa;
+	border-left-style: #8585c1;
+	}
+	nave#menu ul {
+		list-style: none;
+		text-transform: uppercase;
+	}
+	
+	nave#menu li{
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+	}
+.body{
