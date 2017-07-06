@@ -1,4 +1,8 @@
 .body{
+	@font-face{
+	  font-family: "Arial";
+	}
+
 	background-color: #f8f4fa;
 	border-left-style: #8585c1;
 	}
@@ -13,4 +17,46 @@
 		padding: 10px;
 		margin: 2px;
 	}
-.body{
+	
+	#menuButtons{
+		color: #8486bf;
+		padding: 5px 20px;
+		text-decoration:none;
+	}
+	.moreButtons{
+		background-color: #8486bf;
+		color: white;
+		padding: 8px 25px;
+		border-radius: 10px;
+		border: none;
+	}
+	#menuButtons:hover{
+		background-color: #8486bf;
+		color: white;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.semBold{
+		font-weight: normal;
+	}
+	.centeer{
+		text-align: center;
+	}
+	.menu{
+		width: 49%;
+		display: inline-block;
+	}
+	.top{
+		margin-top: 20px;
+	}
+	.footer{
+		background-color: #8486bf;
+	}
+	.black{
+		color: black;
+	}
+	.marginBottom{
+		margin-bottom: -5px;
+	}    
+}
